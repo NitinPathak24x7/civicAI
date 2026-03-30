@@ -1,0 +1,46 @@
+name: civic_ai
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  lucide_icons: ^0.257.0
+  glassmorphism: ^3.0.0 # Great for glossy effects
+  lottie: ^3.1.0 # Needed for animations
+  http: ^1.6.0          # ADD THIS
+  flutter_dotenv: ^6.0.0 # ADD THIS
+  firebase_core: ^4.6.0
+  firebase_auth: ^6.3.0
+  google_sign_in: ^7.2.0
+  google_maps_flutter: ^2.16.0
+  cloud_firestore: ^6.2.0
+  firebase_storage: ^13.2.0
+  image_picker: ^1.2.1
+  geolocator: ^14.0.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1 # Added to generate app icons
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png # Registers your local logo
+    - assets/bg.png  # <-- Add this line!
+    - .env.local         # ADD THIS SO FLUTTER CAN READ IT
