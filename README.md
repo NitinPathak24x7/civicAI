@@ -1,22 +1,5 @@
-Here is a professional, comprehensive README.md perfectly tailored for your hackathon submission. It covers the problem, the solution, the tech stack, and step-by-step setup instructions.
-
 🏛️ CivicAI: Smart Urban Governance Platform
 CivicAI is a centralized, AI-powered bridge between the citizens of Delhi and the Municipal Corporation of Delhi (MCD). It transforms how civic issues (potholes, sanitation, water logging) are reported, tracked, and resolved by introducing brutal transparency, predictive analytics, and gamified citizen engagement.
-
-📖 Table of Contents
-The Problem
-
-Our Solution
-
-Key Features
-
-Tech Stack
-
-Getting Started
-
-Environment Variables
-
-Team
 
 🛑 The Problem
 Currently, citizens navigate a fragmented system to report local issues—using Twitter, phone calls, or outdated paper applications. There is no central, intelligent system for the government to prioritize, track, and predict these issues. This communication gap leads to delayed resolutions, inefficient resource allocation, and frustrated citizens.
@@ -80,8 +63,9 @@ Installation
 1. Clone the repository
 
 Bash
-git clone https://github.com/YourUsername/civic_ai.git
-cd civic_ai
+git clone https://github.com/NitinPathak24x7/civicAI.git
+cd civicAI
+
 2. Install dependencies
 
 Bash
@@ -93,15 +77,12 @@ Download your google-services.json from your Firebase Console and place it in th
 Create a .env.local file in the root directory of your project and add your API keys:
 
 Code snippet
-GROQ_API_KEY=gsk_YourGroqApiKeyHere
-GOOGLE_MAPS_API_KEY=AIzaSyYourGoogleMapsKeyHere
+GROQ_API_KEY= YourGroqApiKeyHere
+GOOGLE_MAPS_API_KEY= YourGoogleMapsKeyHere
+
 5. Setup Native Android Maps Key
 Open android/app/src/main/AndroidManifest.xml and replace the placeholder with your actual Google Maps API Key:
 
-XML
-<meta-data
-    android:name="com.google.android.geo.API_KEY"
-    android:value="AIzaSyYourGoogleMapsKeyHere"/>
 6. Run the App
 
 Bash
