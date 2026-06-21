@@ -1,18 +1,18 @@
-🏛️ CivicAI: Smart Urban Governance Platform
+** CivicAI**: Smart Urban Governance Platform
 CivicAI is a centralized, AI-powered bridge between the citizens of Delhi and the Municipal Corporation of Delhi (MCD). It transforms how civic issues (potholes, sanitation, water logging) are reported, tracked, and resolved by introducing brutal transparency, predictive analytics, and gamified citizen engagement.
 
-🛑 The Problem
+** The Problem**
 Currently, citizens navigate a fragmented system to report local issues—using Twitter, phone calls, or outdated paper applications. There is no central, intelligent system for the government to prioritize, track, and predict these issues. This communication gap leads to delayed resolutions, inefficient resource allocation, and frustrated citizens.
 
-💡 Our Solution
+** Our Solution**
 CivicAI replaces friction with intelligence.
 
 For Citizens: A 10-second reporting tool, a live community feed, and gamified civic scores.
 
 For Authorities: A unified command center with a God's-eye map view, contractor tracking, and AI-driven predictive insights to deploy resources before a crisis escalates.
 
-✨ Key Features
-👤 Citizen App
+ **Key Features**
+ 
 Smart Issue Reporting: Snap a photo, auto-fetch exact GPS coordinates, and categorize the issue in seconds.
 
 Live Community Feed: Upvote, comment, and view "Critical Alerts" in your local neighborhood.
@@ -23,7 +23,7 @@ Gamification & Badges: Earn "Civic Scores" and badges for active community parti
 
 Native Integrations: One-tap MCD helpline dialer and an "Auto-Write Email" generator that forces the native mail app open with pre-filled GPS data.
 
-🏢 Admin Command Center
+** Admin Command Center**
 Live Analytics Hub: Real-time counters for Pending, Active, and Resolved complaints.
 
 Predictive AI Insights: Identifies complaint density spikes to predict hotspots and suggest resource reallocation.
@@ -34,7 +34,7 @@ Zone Distribution Map: Visual heat-map of Delhi/Ghaziabad highlighting areas wit
 
 Duplicate Control & Severity Moderation: Automatically groups identical reports into manageable master tickets.
 
-🛠 Tech Stack
+** Tech Stack**
 Frontend: Flutter & Dart
 
 Backend: Firebase (Firestore NoSQL, Firebase Auth, Cloud Storage)
@@ -51,8 +51,8 @@ Groq API (AI Chatbot Integration)
 
 Native Packages: geolocator, image_picker, url_launcher
 
-🚀 Getting Started
-Prerequisites
+** Getting Started
+**Prerequisites
 Flutter SDK (Version 3.19.0 or higher)
 
 Android Studio (For emulator and build tools)
